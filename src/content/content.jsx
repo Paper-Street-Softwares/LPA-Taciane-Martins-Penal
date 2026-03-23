@@ -106,7 +106,7 @@ export const infos = {
   youtubeProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através do site de vocês e gostaria de falar com uma Advogada Criminalista. Pode me ajudar?",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
