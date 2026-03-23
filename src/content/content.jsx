@@ -44,6 +44,7 @@ import {
   Clock,
   ShieldCheck,
   TriangleAlert,
+  Handshake,
 } from "lucide-react";
 
 import { FileText } from "lucide-react";
@@ -791,24 +792,32 @@ const content = {
     },
     speed: {
       miniTag: <>Diferenciais do Atendimento</>,
-      title: <>Atendimento Criminal Estratégico e Imediato</>,
+      title: <>Um atendimento próximo em momentos delicados</>,
       subtitle: <>A_Definir</>,
       cards: {
         card1: {
-          icon: Clock,
+          icon: Handshake,
           text: <>Discrição absoluta</>,
+          subtitle: <>Sigilo total em todas as etapas do atendimento.</>,
         },
         card2: {
           icon: Users,
           text: <>Defesa técnica e imediata</>,
+          subtitle: <>Atuação rápida com estratégia jurídica desde o início.</>,
         },
         card3: {
           icon: ShieldCheck,
           text: <>Acompanhamento em delegacia</>,
+          subtitle: (
+            <>Presença ativa para garantir seus direitos no momento crítico.</>
+          ),
         },
         card4: {
-          icon: TriangleAlert,
+          icon: MessageSquare,
           text: <>Atendimento emergencial 24h</>,
+          subtitle: (
+            <>Suporte disponível a qualquer hora, quando você precisar.</>
+          ),
         },
       },
       textFooter: <></>,

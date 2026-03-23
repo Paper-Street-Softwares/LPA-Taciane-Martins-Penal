@@ -76,9 +76,9 @@ function Speed({ colorMode }) {
                       >
                         {item.text}
                       </h1>
-                      {/* <p className={`font-secondFont text-sm ${textOpacity}`}>
-                    {item.subtitle}
-                  </p> */}
+                      <p className={`font-secondFont text-sm ${textOpacity}`}>
+                        {item.subtitle}
+                      </p>
                     </div>
                   </MotionDivDownToUp>
                 ))}
