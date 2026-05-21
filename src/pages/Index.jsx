@@ -7,24 +7,24 @@ import StepsNovoTemplate from "../components/sections/StepsNovoTemplate";
 import FaqNovoTemplate from "../components/sections/FaqNovoTemplate";
 
 // Lazy — abaixo da dobra
-const FeaturesNovaTemplate = lazy(
-  () => import("../components/sections/FeaturesNovaTemplate"),
+const FeaturesNovaTemplate = lazy(() =>
+  import("../components/sections/FeaturesNovaTemplate")
 );
-const CtaNovoTemplate = lazy(
-  () => import("../components/sections/CtaNovoTemplate"),
+const CtaNovoTemplate = lazy(() =>
+  import("../components/sections/CtaNovoTemplate")
 );
-const AboutNovoTemplate = lazy(
-  () => import("../components/sections/AboutNovoTemplate"),
+const AboutNovoTemplate = lazy(() =>
+  import("../components/sections/AboutNovoTemplate")
 );
 
-const SocialMediaTemplate = lazy(
-  () => import("../components/sections/SocialMediaTemplate"),
+const SocialMediaTemplate = lazy(() =>
+  import("../components/sections/SocialMediaTemplate")
 );
-const FooterNovoTemplate = lazy(
-  () => import("../components/sections/FooterNovoTemplate"),
+const FooterNovoTemplate = lazy(() =>
+  import("../components/sections/FooterNovoTemplate")
 );
-const WhatsappAnimated = lazy(
-  () => import("../components/interactives/WhatsAppAnimated"),
+const WhatsappAnimated = lazy(() =>
+  import("../components/interactives/WhatsAppAnimated")
 );
 
 const BlogPosts = lazy(() => import("../components/sections/BlogPosts"));
@@ -148,9 +148,9 @@ export default function Index() {
             </Suspense>
           </AlternatingSection>
 
-          <Suspense fallback={null}>
+          {/* <Suspense fallback={null}>
             <WhatsappAnimated colorMode={colorMode} />
-          </Suspense>
+          </Suspense> */}
           {/* <AlternatingSection index={1} colorMode={colorMode}>
             <AuthorityAndAlert />
           </AlternatingSection> */}

@@ -141,7 +141,7 @@ const content = {
       miniTag: <>ADVOGADA CRIMINALISTA 24H</>,
       FirstPart: <span>Advogada Criminalista – Atendimento </span>,
       Destaque: (
-        <span className="destaque relative italic font-light">
+        <span className="relative italic font-light destaque">
           Imediato 24h
         </span>
       ),
@@ -196,7 +196,7 @@ const content = {
           </p>
         </div>
       ),
-      ctaButtonText: <>Falar com Advogada Agora</>,
+      ctaButtonText: <>Falar com a Advogada</>,
     },
     authorityAlert: {
       miniTag: <>A_Definir</>,
@@ -528,7 +528,7 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
       },
-      ctaButtonText: <>Falar agora conosco</>,
+      ctaButtonText: <>Falar com a Advogada</>,
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -635,7 +635,7 @@ const content = {
           },
         },
       },
-      ctaButtonText: <>Falar agora com o Escritório</>,
+      ctaButtonText: <>Falar com a Advogada</>,
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
@@ -692,7 +692,7 @@ const content = {
           topic4: <>A_Definir</>,
         },
       },
-      ctaButtonText: <>Entrar em contato já</>,
+      ctaButtonText: <>Falar com a Advogada</>,
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -732,7 +732,7 @@ const content = {
           cardDescription: <>Você protegido em cada etapa do processo.</>,
         },
       },
-      ctaButtonText: <>Falar agora com a Advogada</>,
+      ctaButtonText: <>Falar com a Advogada</>,
     },
     blog: {
       miniTag: <>A_Definir</>,
@@ -903,7 +903,7 @@ const content = {
         },
       },
 
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph: "Falar com a Advogada",
     },
     // team: {
     //   miniTag: <>A_Definir</>,

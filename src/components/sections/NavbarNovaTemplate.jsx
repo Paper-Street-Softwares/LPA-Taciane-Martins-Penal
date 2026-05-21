@@ -100,7 +100,7 @@ function NavbarNovaTemplate({
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="desktop1:hidden w-auto max-h-full object-contain flex"
+                className="flex object-contain w-auto max-h-full desktop1:hidden"
                 width={217}
                 height={290}
                 fetchPriority="high"
@@ -108,7 +108,7 @@ function NavbarNovaTemplate({
               <img
                 src={content.texts.navbar.logo.imgDesktop}
                 alt={content.texts.navbar.logo.alt}
-                className="hidden desktop1:block h-full w-auto object-contain"
+                className="hidden object-contain w-auto h-full desktop1:block"
                 width={300}
                 height={400}
                 fetchPriority="high"
@@ -117,7 +117,7 @@ function NavbarNovaTemplate({
           </div>
 
           {/* Desktop Nav */}
-          <div className="hidden desktop1:flex items-center gap-8 text-sm font-secondFont font-medium">
+          <div className="items-center hidden gap-8 text-sm font-medium desktop1:flex font-secondFont">
             {labels.map((item, index) => {
               const id = ids[index];
 
@@ -152,7 +152,7 @@ function NavbarNovaTemplate({
               );
             })}
             <ButtonReflexo
-              label="Contato"
+              label="Falar com a Advogada"
               link={content.texts.links.ctaWhatsapp}
               icon={
                 <svg
@@ -166,17 +166,17 @@ function NavbarNovaTemplate({
                 </svg>
               }
               colorMode={colorMode}
-              className="clickevent text-sm mb-0"
+              className="mb-0 text-sm clickevent"
             />
           </div>
 
-          <div className=" lg:hidden ">
+          <div className=" lg:hidden">
             <SidebarSocial colorMode={colorMode} />
           </div>
 
           {/* Mobile Toggle */}
           {/* <button
-            className="desktop1:hidden p-2 z-50 relative text-foreground "
+            className="relative z-50 p-2 desktop1:hidden text-foreground "
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -196,11 +196,11 @@ function NavbarNovaTemplate({
 
           {/* Mobile Menu */}
           {/* {isMobileMenuOpen && (
-            <div className="fixed inset-0 pt-24 px-6 desktop1:hidden z-40 w-full">
+            <div className="fixed inset-0 z-40 w-full px-6 pt-24 desktop1:hidden">
               <motion.div
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="fixed inset-0 pt-24 px-6 desktop1:hidden z-40 w-full"
+                className="fixed inset-0 z-40 w-full px-6 pt-24 desktop1:hidden"
               >
                 <div
                   className={`flex flex-col gap-6 max-w-[500px] text-center items-center p-4 text-lg mx-auto font-secondFont font-medium border-l border-r border-b border-primary/20 rounded-md ${backgrondMode}`}
